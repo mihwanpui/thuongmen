@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #ffebee;
+}
+.container {
+    text-align: center;
+}
+.cat img {
+    width: 200px;
+    animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+.message {
+    color: #e91e63;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#accept { background-color: #4caf50; color: white; }
+#reject { background-color: #f44336; color: white; }
