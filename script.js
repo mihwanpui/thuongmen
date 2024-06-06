@@ -54,12 +54,8 @@ function generateMessage(noCount) {
   return messages[messageIndex];
 }
 
-// function changeImage(image) {
-//   catImg.src = `D:/code/thngmn/thuongmen/images-${image}.jpg`;
-// }
-
 function changeImage(image) {
-  catImg.src = `thuongmen/images/cat-${image}.jpg`; // Đường dẫn tương đối
+  catImg.src = `images/cat-${image}.jpg`; 
 }
 
 
