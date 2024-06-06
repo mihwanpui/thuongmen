@@ -59,7 +59,7 @@ function generateMessage(noCount) {
 // }
 
 function changeImage(image) {
-  catImg.src = `images/images-${image}.jpg`; // Đường dẫn tương đối
+  catImg.src = `images/cat-${image}.jpg`; // Đường dẫn tương đối
 }
 
 
