@@ -54,9 +54,14 @@ function generateMessage(noCount) {
   return messages[messageIndex];
 }
 
+// function changeImage(image) {
+//   catImg.src = `D:/code/thngmn/thuongmen/images-${image}.jpg`;
+// }
+
 function changeImage(image) {
-  catImg.src = `D:/code/thngmn/thuongmen/images-${image}.jpg`;
+  catImg.src = `images/images-${image}.jpg`; // Đường dẫn tương đối
 }
+
 
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
