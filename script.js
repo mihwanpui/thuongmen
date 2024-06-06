@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.jpg`;
+  catImg.src = `D:/code/thngmn/thuongmen/images-${image}.jpg`;
 }
 
 function updateNoButtonText() {
